@@ -24,7 +24,7 @@ class Contact_us extends FormBase{
 	*/
 	
 	public function getFormId() {
-		return 'alertdriving_contact_us_form';
+		return 'drupal_contact_us_form';
 	}
 	
 	/**
