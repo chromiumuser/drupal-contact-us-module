@@ -1,5 +1,5 @@
-name: Drupal 8 Contact Us
-description: Creates a block for Contact Us Page
+name: AlertDriving Contact Us
+description: Creates the block for Contact Us Page
 package: Custom
 
 type: module
