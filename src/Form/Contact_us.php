@@ -130,19 +130,19 @@ class Contact_us extends FormBase{
 		$from = $this->config('system.site')->get('mail');
 		
 		if($form_values['department'] == 'general') {
-			$to = 'info@alertdriving.com';
+			$to = 'info@domainname.com';
 			$params['message'] = "General Inquiries - Contact Us Submission:";
 			$params['subject'] = "General Inquiries - Contact Us";
 		} else if($form_values['department'] == 'sales'){
-			$to = 'sales@alertdriving.com';
+			$to = 'sales@domainname.com';
 			$params['message'] = "Sales Inquiries - Contact Us Submission:";
 			$params['subject'] = "Sales Inquiries - Contact Us";
 		} else if($form_values['department'] == 'channel'){
-			$to = 'channels@alertdriving.com';
+			$to = 'channels@domainname.com';
 			$params['message'] = "Channel Portal Inquiries - Contact Us Submission:";
 			$params['subject'] = "Channel Portal Inquiries - Contact Us";
 		} else {
-			$to = 'support@alertdriving.com';
+			$to = 'support@domainname.com';
 			$params['message'] = "Support Request - Contact Us Submission:";
 			$params['subject'] = "Support Request - Contact Us";
 		}
@@ -160,7 +160,7 @@ class Contact_us extends FormBase{
 		
 		$params['message'] .= "\r\n\r\n";
 		$params['message'] .= "Thank You";
-		$params['message'] .= "\r\nAlertDriving Automated Email";
+		$params['message'] .= "\r\nSystem Automated Email";
 		
 		$language_interface = \Drupal::languageManager();
 		$language_code = $language_interface->getDefaultLanguage()->getId();
