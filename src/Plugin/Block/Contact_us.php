@@ -5,11 +5,11 @@ namespace Drupal\contact_us\Plugin\Block;
 use Drupal\Core\Block\BlockBase;
 
 /**
- * Provides a 'Home' Block
+ * Provides a Contact Us Block
  *
  * @Block(
- *   id = "alertdriving_contact_us",
- *   admin_label = @Translation("AlertDriving Contact Us Block"),
+ *   id = "drupal_contact_us",
+ *   admin_label = @Translation("Drupal 8 Contact Us Block"),
  * )
  */
  
