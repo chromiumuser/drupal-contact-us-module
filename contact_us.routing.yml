@@ -1,0 +1,7 @@
+freepilot.form:
+  path: '/alertdriving/contact'
+  defaults:
+    _form: '\Drupal\contact_us\Form\Contact_us'
+    _title: 'Contact Us - AlertDriving'
+  requirements:
+    _permission: 'access content'
